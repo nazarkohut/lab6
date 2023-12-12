@@ -7,7 +7,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY main.py /app/
+COPY app.py /app/
 
 # Install any needed packages specified in requirements.txt
 # (assuming you have a requirements.txt file)
