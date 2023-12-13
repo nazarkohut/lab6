@@ -12,6 +12,9 @@ COPY app.py /app/
 # Install any needed packages specified in requirements.txt
 # (assuming you have a requirements.txt file)
 # RUN pip install --trusted-host pypi.python.org -r requirements.txt
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt
+
 
 # Make port 5001 available to the world outside this container
 EXPOSE 5001
