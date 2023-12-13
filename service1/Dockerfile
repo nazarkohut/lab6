@@ -20,4 +20,4 @@ EXPOSE 5000
 ENV NAME service1
 
 # Run main.py when the container launches
-CMD ["python", "main.py"]
+CMD ["python", "app.py"]
