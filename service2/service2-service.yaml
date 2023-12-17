@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     app: service2
+  type: NodePort
   ports:
     - protocol: TCP
       port: 80
